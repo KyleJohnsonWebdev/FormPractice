@@ -68,7 +68,7 @@ const BasicForm = (props) => {
     <form onSubmit={formSubmissionHandler}>
       <div className="control-group">
         <div className={firstNameInputClasses}>
-          <label htmlFor="name">Your Name</label>
+          <label htmlFor="name">Your First Name</label>
           <input
             type="text"
             id="name"
@@ -81,7 +81,7 @@ const BasicForm = (props) => {
           )}
         </div>
         <div className={lastNameInputClasses}>
-          <label htmlFor="name">Your Name</label>
+          <label htmlFor="name">Your Last Name</label>
           <input
             type="text"
             id="name"
